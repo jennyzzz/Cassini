@@ -11,7 +11,8 @@
 		5E7995F11D34A1F300019425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7995EF1D34A1F300019425 /* Main.storyboard */; };
 		5E7995F31D34A1F300019425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7995F21D34A1F300019425 /* Assets.xcassets */; };
 		5E7995F61D34A1F300019425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7995F41D34A1F300019425 /* LaunchScreen.storyboard */; };
-		5E7996011D34A3C600019425 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7996001D34A3C600019425 /* ImageViewController.swift */; };
+		5E7996051D37310100019425 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7996041D37310100019425 /* DemoURL.swift */; };
+		5E7996071D3764AF00019425 /* ZZImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7996061D3764AF00019425 /* ZZImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,8 @@
 		5E7995F21D34A1F300019425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E7995F51D34A1F300019425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E7995F71D34A1F300019425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E7996001D34A3C600019425 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		5E7996041D37310100019425 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		5E7996061D3764AF00019425 /* ZZImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,10 @@
 		5E7995EA1D34A1F300019425 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				5E7996001D34A3C600019425 /* ImageViewController.swift */,
+				5E7996061D3764AF00019425 /* ZZImageViewController.swift */,
 				5E7995EF1D34A1F300019425 /* Main.storyboard */,
 				5E7995F71D34A1F300019425 /* Info.plist */,
+				5E7996041D37310100019425 /* DemoURL.swift */,
 				5E7995FD1D34A22C00019425 /* Supporting files */,
 			);
 			path = Cassini;
@@ -143,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E7996011D34A3C600019425 /* ImageViewController.swift in Sources */,
+				5E7996071D3764AF00019425 /* ZZImageViewController.swift in Sources */,
 				5E7995EC1D34A1F300019425 /* AppDelegate.swift in Sources */,
+				5E7996051D37310100019425 /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				5E7995FC1D34A1F300019425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
