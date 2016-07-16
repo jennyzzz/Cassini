@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ZZImageViewController: UIViewController {
+class ZZImageViewController: UIViewController, UIScrollViewDelegate
+{
     
     var imageURL: NSURL? {
         didSet {
@@ -30,6 +31,7 @@ class ZZImageViewController: UIViewController {
     {
         didSet{
             scrollView.contentSize = imageView.frame.size
+            scrollView.delegate = self
         }
     }
     
@@ -51,7 +53,6 @@ class ZZImageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.addSubview(imageView)
-        imageURL = NSURL(string: DemoURL.Stanford)
     }
     
     

@@ -13,6 +13,7 @@
 		5E7995F61D34A1F300019425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7995F41D34A1F300019425 /* LaunchScreen.storyboard */; };
 		5E7996051D37310100019425 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7996041D37310100019425 /* DemoURL.swift */; };
 		5E7996071D3764AF00019425 /* ZZImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7996061D3764AF00019425 /* ZZImageViewController.swift */; };
+		5EED65581D394E3A0034CDA5 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED65571D394E3A0034CDA5 /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5E7995F71D34A1F300019425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7996041D37310100019425 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 		5E7996061D3764AF00019425 /* ZZImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZImageViewController.swift; sourceTree = "<group>"; };
+		5EED65571D394E3A0034CDA5 /* CassiniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				5E7996061D3764AF00019425 /* ZZImageViewController.swift */,
 				5E7995EF1D34A1F300019425 /* Main.storyboard */,
+				5EED65571D394E3A0034CDA5 /* CassiniViewController.swift */,
 				5E7995F71D34A1F300019425 /* Info.plist */,
 				5E7996041D37310100019425 /* DemoURL.swift */,
 				5E7995FD1D34A22C00019425 /* Supporting files */,
@@ -149,6 +152,7 @@
 				5E7996071D3764AF00019425 /* ZZImageViewController.swift in Sources */,
 				5E7995EC1D34A1F300019425 /* AppDelegate.swift in Sources */,
 				5E7996051D37310100019425 /* DemoURL.swift in Sources */,
+				5EED65581D394E3A0034CDA5 /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
