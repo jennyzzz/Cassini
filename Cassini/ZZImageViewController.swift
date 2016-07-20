@@ -51,6 +51,8 @@ class ZZImageViewController: UIViewController, UIScrollViewDelegate
         }
     }
     
+    
+    
     private var imageView = UIImageView()
     
     @IBOutlet weak var spinner: UIActivityIndicatorView!
