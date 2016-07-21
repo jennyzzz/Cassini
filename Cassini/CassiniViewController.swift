@@ -12,7 +12,7 @@ class CassiniViewController: UIViewController, UISplitViewControllerDelegate
 {
     
     private struct Storyboard {
-        static let ShowImageSegue = "Show Image"
+        static let ShowImageSegue = "ShowImage"
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
